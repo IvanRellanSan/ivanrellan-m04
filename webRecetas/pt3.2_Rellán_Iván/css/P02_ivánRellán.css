@@ -1,0 +1,378 @@
+*{
+    font-family:'Nunito', sans-serif;
+    
+}
+
+body{
+    margin: 0;
+}
+
+hr{
+    border-color: #7ABA96;
+}
+
+td{
+    width: 250px;
+}
+
+form{
+    display: block;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 0.1%;
+    margin-right: 5%;
+}
+
+.submit{
+    margin: 1%;
+    background-color: #adadad;
+    border-style: none;
+    width: 20%;
+    height: 3%;
+}
+
+.submit:hover{
+    background-color: #7ABA96;
+    cursor: pointer;
+}
+
+.fecha{
+    font-size: 10px;
+}
+
+.tableList{
+    border-bottom: 1px solid #000000;
+
+}
+
+.imgrecepta, .imgListado{
+    width: 300px;
+    height: 200px;
+}
+
+p{
+    font-size: 143%;
+}
+
+.categorías{
+    font-size: 11;
+    display: flex;
+    text-align: center;
+}
+
+.categoria{
+    flex: 5%;
+    color: #6eb48c;
+    border-style: solid;
+    margin: 2%;
+    padding: 0.5%;
+    border-width: 2px;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.content{
+    flex: 80%;
+    margin: 1%;
+}
+
+.content2{
+    flex: 30%;
+    margin: 4.7%;
+}
+
+.imgListado{
+    float: left;
+    margin: 0.3%;
+    border-radius:50%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.separarParrafos{
+    border-color: black;
+    margin: 3%;
+}
+
+.tablaReceta{
+    text-align: center;
+}
+
+.recetaimg{
+    margin: auto;
+    display: block;
+    width: 500px;
+    height: 350px;
+    float: left;
+    margin: 1%;
+}
+
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+}
+
+.container{
+    transition: .5s ease;
+    background: #008CBA;
+}
+
+.container:hover{
+    opacity: 1;
+}
+
+
+.recetaimg2{
+    margin: auto;
+    display: block;
+    width: 500px;
+    height: 350px;
+    float: right;
+    margin: 1%;
+}
+
+.persona{
+    width: 200px;
+    height: 200px;
+}
+
+header{
+    top: 0;
+    position: sticky;
+    background-color: #f6fff9;
+}
+
+.title{
+    margin: auto;
+    display: block;
+    top: 0;
+}
+
+.menu{
+    text-align: center;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+}
+
+.object{
+    flex: none;
+    margin: 1%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.actual{
+    color: #7ABA96;
+}
+
+a:hover{
+    transition: 0.2s;
+    color: #7ABA96;
+    cursor: pointer; 
+}
+
+#suscripcio{
+    display: block;
+    background-color: lightgray;
+    padding: 1px;
+    text-align: center;
+}
+
+#receptes{
+    float: inline-end;
+}
+
+.apunta{
+    background-color: #7ABA96;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding: 0.01%;
+    bottom: 0;
+    width: 100%;
+}
+
+.letrasrs{
+    color: white;
+}
+
+input{
+    justify-self: center;
+}
+
+.recetaSalsa{
+    display: flex;
+}
+
+.caracte{
+    flex: none;
+    margin: 1%;
+    padding: 70px 50;
+    text-align: left;
+}
+
+.dada{
+    text-align: right;
+}
+
+.pasos{
+    font-size: 20;
+}
+
+.order{
+    display: inline-block;
+    color: #6eb48c;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    font-family: Lato,sans-serif;
+}
+
+.imgpasos{
+    margin: 1%;
+    width: 600px;
+    height: 400px;
+}
+ul, ol{
+    list-style: none;
+}
+
+.imgsobre{
+    float: left;
+    margin: 1%;
+}
+
+.descripción{
+    font-size: 21;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.sobreHr{
+    border-color: lavender;
+}
+
+.elList{
+    border-bottom: 3px solid #7ABA96;
+    width: 30%;
+}
+
+.listEl{ 
+    background-color: rgb(255, 255, 255);
+}
+
+.navegacio ul {
+	list-style: none;
+	text-align: center;
+}
+
+.pag {
+	display: inline-block;	
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: #f3f3f3;
+    background-color: #f3f3f3;
+}
+
+.pag:hover{
+    color: white;
+    border-color:  #6eb48c;
+    background-color: #6eb48c;
+    cursor: pointer;
+}
+
+.active{
+    color: white;
+    border-color:  #6eb48c;
+    background-color: #6eb48c;
+}
+
+.prev:hover .seg:hover{
+    color: white;
+    border-color:  #6eb48c;
+    background-color: #6eb48c;
+    cursor: pointer;
+    box-shadow: black;
+}
+
+.prev{
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.seg{
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.formtitle{
+    text-align: center;
+}
+
+.imgconcurs{
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    display: block;
+}
+
+.train{
+    float: left;
+}
+
+.train:hover{
+    transform: scale(3);
+}
+  
+.imgListado:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    transform: rotate(360deg) scale(2) translateX(50%);
+}
+
+.apunta:hover{
+    color: black;
+}
+
+.submitSus{
+    margin: 1%;
+    background-color: #adadad;
+    border-style: none;
+    width: 30%;
+    height: 1%;
+}
+
+.submitSus:hover{
+    background-color: #7ABA96;
+    cursor: pointer;
+}
+
+.sus{
+    text-align: left;
+}
+
+.contacto{
+    background-color: #f6fff9;
+}
